@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.sidebar {
+    background-color: #333; 
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.content {
+    flex-grow: 1; 
+    background-color: #444; 
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+a {
+    color: #a19ae7; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
