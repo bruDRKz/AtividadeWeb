@@ -6,13 +6,15 @@ body {
 
 .container {
     display: flex;
-    width: 80%;
+    width: 100%;
     max-width: 900px;
     margin: 20px auto;
 }
 
 img{
-    max-width: 250px;
+    width:100%;
+    border-radius: 250px;
+    margin-right: 20px;
 }
 
 .sidebar {
