@@ -4,15 +4,15 @@ body {
     font-family: Arial, sans-serif;
 }
 
+img{
+    max-width: 250px;
+}
+
 .container {
     display: flex;
     width: 80%;
     max-width: 900px;
     margin: 20px auto;
-}
-
-img{
-    max-width: 250px;
 }
 
 .sidebar {
